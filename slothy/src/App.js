@@ -1,0 +1,29 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src="https://cdn.discordapp.com/avatars/826056261610373130/7898450388fd94cf5a442cf6e0d1ee13.webp?size=4096" className="App-logo" alt="logo" />
+        {/* <h1
+        className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Slothy</h1> */}
+          
+        
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Slothy!
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
