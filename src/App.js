@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://cdn.discordapp.com/avatars/826056261610373130/7898450388fd94cf5a442cf6e0d1ee13.webp?size=4096" className="App-logo" alt="logo" />
+        <img src="https://cdn.discordapp.com/avatars/826056261610373130/7898450388fd94cf5a442cf6e0d1ee13.webp?size=4096" className="App-logo" alt="sloth_here" />
         {/* <h1
         className="App-link"
           href="https://reactjs.org"
