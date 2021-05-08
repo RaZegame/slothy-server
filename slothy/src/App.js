@@ -16,7 +16,7 @@ function App() {
         
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://discord.com/api/oauth2/authorize?client_id=826056261610373130&permissions=3761564736&scope=bot%20applications.commands"
           target="_blank"
           rel="noopener noreferrer"
         >Slothy!
