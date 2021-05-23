@@ -25,7 +25,55 @@
 }
 
 .App-link {
-  color: #0e0b0e;
+  color: C2AAFF;
+  text-transform: initial;
+  font-size: 100px;
+  text-decoration: none;
+  position: relative;
+  display: block;
+
+  
+}
+a:active {
+  color: white;
+  
+}
+
+a:hover {
+  -webkit-animation: heartbeat 1.7s infinite ease-in;
+          animation: heartbeat 1.7s infinite ease-in;
+}
+
+@-webkit-keyframes heartbeat {
+  0% { -webkit-transform: scale(1); }
+  10% { -webkit-transform: scale(1.1); }
+  20% { -webkit-transform: scale(1); }
+  30% { -webkit-transform: scale(1.1); }
+  40% { -webkit-transform: scale(1); }
+}
+
+@-webkit-keyframes heartbeat-x {
+  0% { -webkit-transform: scaleX(0); }
+  10% { -webkit-transform: scaleX(1); }
+  20% { -webkit-transform: scaleX(0); }
+  30% { -webkit-transform: scaleX(1); }
+  40% { -webkit-transform: scaleX(0); }
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  10% { transform: scale(1.1); }
+  20% { transform: scale(1); }
+  30% { transform: scale(1.1); }
+  40% { transform: scale(1); }
+}
+
+@keyframes heartbeat-x {
+  0% { transform: scaleX(0); }
+  10% { transform: scaleX(1); }
+  20% { transform: scaleX(0); }
+  30% { transform: scaleX(1); }
+  40% { transform: scaleX(0); }
 }
 
 @keyframes App-logo-spin {
