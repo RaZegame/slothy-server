@@ -10,6 +10,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  
   }
 }
 
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(100px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -37,11 +39,14 @@
 a:active {
   color: white;
   
+  transition: 1s;
+  
 }
 
 a:hover {
   -webkit-animation: heartbeat 1.7s infinite ease-in;
           animation: heartbeat 1.7s infinite ease-in;
+          
 }
 
 @-webkit-keyframes heartbeat {
